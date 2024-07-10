@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Created by Ardora - www.webardora.net-->
+<!--ArdoraPanel-->
+<!--bajo licencia Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+para otros usos contacte con el autor-->
+<html lang="es">
+<head><meta charset="utf-8" /><title>PanelGrafico-Partes-Planta</title>
+<link type="text/css" href="PanelGraficoActi_resources/css/ardoraPanel.css" rel="stylesheet" />
+<script language="javascript" type="text/javascript" src="PanelGraficoActi_resources/js/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="PanelGraficoActi_resources/js/jquery-ui.min.js"></script>
+<script language="javascript" type="text/javascript" src="PanelGraficoActi_resources/js/jquery.ui.touch-punch.min.js"></script>
+<script language="javascript" type="text/javascript" src="PanelGraficoActi_resources/js/ardoraPanelCFG.js"></script>
+<script language="javascript" type="text/javascript" src="PanelGraficoActi_resources/js/ardoraScorm.js"></script>
+<script language="javascript" type="text/javascript" src="PanelGraficoActi_resources/js/ardoraPanel.js"></script>
+<script language="javascript" type="text/javascript" src="PanelGraficoActi_resources/js/ardoraTab.js"></script>
+</head>
+<body onLoad="loadPage()" onbeforeunload="unloadPage()" onUnload="unloadPage()">
+<div id="ardoraMain">
+<audio id="audioEnu">
+<source src="PanelGraficoActi_resources/media/fondo.mp3" type="audio/mp3">
+</audio>
+<audio id="audioFelicitacion">
+<source src="PanelGraficoActi_resources/media/goodresult-82807.mp3" type="audio/mp3">
+</audio>
+<audio id="audioTempo">
+<source src="PanelGraficoActi_resources/media/level-failed-80951.mp3" type="audio/mp3">
+</audio>
+<audio id="audioIntentos">
+<source src="PanelGraficoActi_resources/media/level-failed-80951.mp3" type="audio/mp3">
+</audio>
+<audio id="audioErro">
+<source src="PanelGraficoActi_resources/media/error-8-206492.mp3" type="audio/mp3">
+</audio>
+<div id="ardoraEnu"><SPAN style="font-size:24px;color:#000000"><b>¡Bienvenido! Partes de la Planta</b></SPAN><br><br><SPAN style="font-size:20px;color:#000000"><b><u>Instrucciones</u></b></SPAN><br><SPAN style="font-size:18px;color:#000000">•	Selecciona la parte de la planta correcta.</SPAN><br><SPAN style="font-size:18px;color:#000000">•	Dispones de 5 Intentos.</SPAN><br><SPAN style="font-size:18px;color:#000000">•	Si finaliza el tiempo fallaras.</SPAN><br><SPAN style="font-size:18px;color:#00FF40">Toca aqui para activar o desactivar la musica</SPAN></div>
+  <div id="ardoraAct">
+<div id="txt1" class="txtCell"><div id="txt1_txt" class="txtCell_txt"><p>Raíces</p></div></div>
+<div id="txt2" class="txtCell"><div id="txt2_txt" class="txtCell_txt"><p>Hoja</p></div></div>
+<div id="txt3" class="txtCell"><div id="txt3_txt" class="txtCell_txt"><p>Flor</p></div></div>
+<div id="txt4" class="txtCell"><div id="txt4_txt" class="txtCell_txt"><p>Fruto</p></div></div>
+<div id="txt5" class="txtCell"><div id="txt5_txt" class="txtCell_txt"><p>Tallo</p></div></div>
+<div id="txt6" class="txtCell" ><div id="txt6_txt" class="txtCell_txt"><p></p></div></div>
+<canvas id="ardoraActCanvas" width="2px" height="2px"></canvas>
+<canvas id="ardoraActCanvasAnim" aria-label="" width="2px" height="2px"></canvas>
+  </div>
+<div id="ardoraTab">
+  <canvas id="ardoraTabCanvas" width="70" height="137"></canvas>
+</div></div>
+<div id="ardoraAlumSCORM"><p></p></div>
+<div id="ardoraAutor"><p>Luis Castro - Rigoberto Lopez</p></div>
+</body></html>

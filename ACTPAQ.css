@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+background-image:url("images/none");
+background-position:center;
+background-repeat:repeat;
+background-color:#E3EEEC;
+	margin: 10px 0;
+}
+body, th, td {font-size: 13px;color: #666666;}
+h1, h2, h3 {color: #408053;font-size:18px;}
+h2 {color:#000000;font-size: 12px;}
+h3 a{border: none;text-decoration: none;color:#000000;}
+h3 a:hover{background: #408053;color:#FFFFFF;text-transform:uppercase;}
+p, ul {margin-top: 1.5em;line-height: 1.8em;font-size: 1.1em;}
+ul, ol {margin-left: 3em;}
+.ardoraButt:hover{fill:#e3eeec}
+.ardoraButt{fill:#408053;}
+a {text-decoration: none;border-bottom: 1px #E9D14E;color: #A7961B;}
+h1 a, h2 a {border: none;text-decoration: none;color: #626456;}
+h1 a:hover, h2 a:hover {background: none;border-bottom: 1px dotted #E9D14E;color: #B8D03B;}
+/* CABECEIRA */
+#cabeceira {width: 95%;height: 30px;margin: 0 auto;background:#E3EEEC;}
+#menuPrincipal {float: left;padding-top:2px;padding-bottom:2px;height: 20px;}
+#menuPrincipal ul {margin: 0;padding: 0;list-style: none;line-height: normal;}
+#menuPrincipal li {float: left;}
+#menuPrincipal a {border-style:dashed;display: block;float: left;height: 20px;margin-right: 1px;padding: 10px 20px 0 20px;text-decoration:none;font-size: 12px;font-weight: bold;color:#000000;border: 1px #FFFFFF;border-top:none;border-bottom:none;}
+#menuPrincipal a:hover {background:#408053;color:#FFFFFF;border: 1px solid #FFFFFF;border-top:none;border-bottom:none;}
+#titulo {width: 95%;margin: 0 auto;height: 40px;background:#408053;border: 1px solid #FFFFFF;}
+#titulo h1 {float: left;margin: 0;font-size:24px;padding: 5px 5px 0 20px;color:#FFFFFF;}
+#titulo h2 {float: right;margin: 0;padding: 20px 10px 0 0;color:#FFFFFF;}
+#page {overflow:hidden;width: 95%;margin: 0 auto;padding-top: 5px;background: #FFFFFF;border: 1px solid #408053;}
+#areaContido {float: left;width: 75%;padding: 0 5px 0 21px;margin: 0;font-size: .8em;color: #CFCFCF; text-align:justify;}
+#menu {float: left;width: 18%;float:right;padding: 10px;}
+#menu ul {margin: 0;padding: 0;list-style: none;}
+#menu li li {padding: 5px;margin: 0;font-size: .8em;}
+#menu li h2{color:#000000;font-size:12px;padding-top: 5px;padding-bottom: 5px;border-bottom: 1px solid #408053;padding-left:5px;}
+#menu li a {color:#000000;padding:2px;	border: none;font-size:10px;font-style:normal;}
+#menu li a:hover {padding:2px;border: none;background:#408053;color:#FFFFFF;font-style:inherit;font-size:10px;text-transform:uppercase;}
+#footer {padding:5px;width: 95%;margin: 0 auto;background:#FFFFFF;border: 1px solid #408053;}
+#areaMedia{top:90px;}
+#suggestPost{
+top:0;right:0;
+position: fixed;height:25px;width:25px;}
+#suggestPost a:hover{
+background-image:url(images/bAvaliaSD2.png);
+height:25px;width:25px;}
+#suggestPost a{cursor: pointer;
+background-image:url(images/bAvaliaSD.png);
+display:block;height:25px;width:25px;}
+object{overflow:hidden;}
+#backmodal{background-color:rgba(0,0,0, 0.5);text-align:center;}
+#modalw{font-size: 20px;display: inline-table;margin-top:10%;padding: 25px;text-align:justify;font-family: sans-serif;background-color:rgba(255,255,255,1)}
+#cancelbut, #okbut{border-radius:8px;font-size: 28px;color: white;margin-top: 10px; cursor: pointer;}
+#cancelbut:hover, #okbut:hover{box-shadow: inset 0px 0px 20px rgba(0,0,0,1);}
+#cancelbut{padding: 2px 5px 5px 5px;background-color: red;float: left;}
+#okbut{padding: 2px 8px 5px 8px;background-color: green;float:right;}
+#player{position:relative;}
+#repo{display: inline-flex;width: 100%;}
+#ytrepo{width:min-content;padding: 10px;}
+.svgico{cursor: pointer;border-color: black;}
+.butt{width: 30px;height: 30px;padding: 0;border: none;background: none;}
+#bot03, #bot04{float: right;}
+#nameact{width: inherit;text-align: center;font-family:Verdana, Geneva, sans-serif;font-size:24px;font-weight: bold;color:#000000;}
+#ardoraenuMedia{padding:10px;font-family:Verdana, Geneva, sans-serif;font-size:16px;font-weight: bold;color:#000000;}
+#p_review{margin-top: 0;cursor:pointer;position: absolute;z-index:2;padding:0;display:block;width:40px;height:40px;line-height:40px;border: 2px solid #000000;border-radius: 50%;color:#000000;text-align:center;text-decoration:none;background: #FFFFFF;box-shadow: 2px 0 5px gray;font-size:28px;font-weight:bold;}
+#p_review:hover{color:#E3EEEC;box-shadow:inset 2px 0 5px gray;}
